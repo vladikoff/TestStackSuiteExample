@@ -38,7 +38,7 @@ define({
   packages: [ { name: 'dojo', location: 'dojo2-core' } ],
 
   // Non-functional test suite(s) to run in each browser
-  suites: [ '../suiteExample', 'suiteBrowser' ],
+  suites: [ 'suiteExample', 'suiteBrowser' ],
 
   // Functional test suite(s) to run in each browser once non-functional tests are completed
   functionalSuites: [ 'suiteExample' ]
